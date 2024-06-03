@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="font-haken">
+    <section
+      class="w-[90%] max-w-md mx-auto bg-white shadow-2xl rounded-b-2xl text-white md:flex md:rounded-2xl md:max-w-4xl"
+    >
+      <article
+        class="bg-gradient-to-b from-Light-slate-blue to-Light-royal-blue p-10 rounded-b-2xl text-center md:rounded-2xl md:flex md:flex-col md:justify-center md:items-center "
+      >
+        <p class="text-xl font-bold text-Light-lavender">Your Result</p>
+
+        <div
+          class="md:w-56 w-32 aspect-square bg-gradient-to-b from-Violet-blue to-Persian-blue rounded-full my-8 m-auto flex flex-col justify-center items-center"
+        >
+          <p class="text-5xl md:text-7xl font-bold mb-2">76</p>
+          <p class="font-bold text-Light-lavender">of 100</p>
+        </div>
+        <h3 class="text-3xl mb-4 font-bold">Great</h3>
+        <p class="text-Light-lavender">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </article>
+
+      <article class="text-black p-10 flex flex-col gap-6 md:w-1/2">
+        <h3 class="mt-2 font-bold">Summary</h3>
+
+        <div class="bg-Light-red/20 rounded-xl flex py-4 px-6 items-center">
+          <img src="../assets/images/icon-reaction.svg" alt="" />
+          <p class="ml-3 text-Light-red text-lg">Reaction</p>
+          <span class="ml-16">80</span>
+          <span class="text-Dark-gray-blue">/100</span>
+        </div>
+
+        <div class="bg-Orangey-yellow/50 rounded-xl flex py-4 px-6 items-center">
+          <img src="../assets/images/icon-memory.svg" alt="" />
+          <p class="ml-3 text-Orangey-yellow text-lg">Memory</p>
+          <span class="ml-16">92</span>
+          <span class="text-Dark-gray-blue">/100</span>
+        </div>
+
+        <div class="bg-green-600/50 rounded-xl flex py-4 px-6 items-center">
+          <img src="../assets/images/icon-verbal.svg" alt="" />
+          <p class="ml-3 text-green-600 text-lg">Visual</p>
+          <span class="ml-16">61</span>
+          <span class="text-Dark-gray-blue">/100</span>
+        </div>
+
+        <div class="bg-Cobalt-blue/20 rounded-xl flex py-4 px-6 items-center">
+          <img src="../assets/images/icon-visual.svg" alt="" />
+          <p class="ml-3 text-Cobalt-blue text-lg">Visual</p>
+          <span class="ml-16">71</span>
+          <span class="text-Dark-gray-blue">/100</span>
+        </div>
+
+        <a href="#" class="hover:-translate-y-1 hover:shadow-md bg-Dark-gray-blue text-white rounded-full  py-5 text-center font-bold transition hover:delay-75 hover:bg-gradient-to-b from-Light-slate-blue to-Light-royal-blue">Continue</a>
+      </article>
+    </section>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/Wilgrey2004" target="_blank"
+        >Wilgery Ravelo Cruz</a
+      >.
+    </div>
+  </body>
+</html>
